@@ -1,0 +1,59 @@
+.settings-box{
+    background-color: white;
+    height: 60vh;
+    width: 60vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.setting-left{
+  
+    height: 50vh;
+    width: 25vw;
+}
+.setting-right
+{
+   
+    height: 45vh;
+    width: 25vw;
+}
+.changeProfile{
+    height: 7vh;
+    width: 5vw;
+}
+.uid{
+    background-color:rgb(231, 178, 43) ;
+    border: 2px solid black;
+    width: 10vw;
+
+}
+.help-btn{
+    background-color: grey;
+    color: black;
+    border: 2px solid black;
+}
+.details{
+    background-color: #D9D9D9;
+    height: 25vh;
+    width: 25vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid black;
+}
+.details-pass{
+    background-color: #D9D9D9;
+    height: 23vh;
+    width: 25vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid black;
+
+}

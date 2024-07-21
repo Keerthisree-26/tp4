@@ -1,0 +1,70 @@
+.login
+{
+  background-image: url(../images/backgroundImg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 129vh;
+
+
+}
+.login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+.login-box{
+    background-color:white;
+    height: 500px;
+    width: 23%;
+    text-align: center;
+    font-family: "Changa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border-radius:25px ;
+    -webkit-border-radius:25px ;
+    -moz-border-radius:25px ;
+    -ms-border-radius:25px ;
+    -o-border-radius:25px ;
+}
+.login-button{
+            background-color: black;
+            color: darkgoldenrod;
+            border: 2px solid darkgoldenrod;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+}
+.login-input{
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+ /* small screens */
+ @media only screen and (max-width:768px) 
+ {
+.login-box
+{
+
+  height: 80vh;
+  width:78vw;
+  
+}
+
+ }
+  @media (min-width: 481px) and (max-width: 890px)
+{
+ .login-box{
+  height: 52vh;
+  width: 44vw;
+}
+}

@@ -1,0 +1,268 @@
+.row{
+    background-color: black;
+    height: 10vh;
+
+}
+.group-img
+{
+    height: 8vh;
+    width: 7px;
+    
+}
+.logo1 {
+    height: 8vh;
+    width: 4vw;
+}
+.icon
+{ color: white;
+    font-size: 30px;
+}
+
+.questionMark,.roundImg{
+    height: 6vh;
+    width: 3vw;
+
+}
+.wallet,.text{
+    text-decoration: none;
+    background-color:white;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 2px solid darkgoldenrod;
+}
+
+/*slider*/
+.slider {
+    height: 30vh;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: left;
+    overflow: hidden;
+
+}
+
+.slider-track {
+    display: flex;
+    width: calc(250px * 10);
+    animation: scroll 10s linear infinite;
+}
+
+.image1 {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 5));
+    }
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+/*slideCode end*/
+.left-box, .right-box {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-box {
+    background-color: #f0f0f0;
+    background-image: linear-gradient(black,rgb(57, 57, 57));
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 75vh;  
+
+}
+  
+  .right-box {
+    background-color: #e0e0e0;
+    background-image: linear-gradient(black,rgb(57, 57, 57));
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 75vh;  
+}
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .center-box {
+    flex: 5;
+    background: rgb(2,1,11);
+    background-image: linear-gradient(black,rgb(57, 57, 57));
+    padding: 20px;
+    height: 75vh;   
+}
+.pro{
+    height: 6vh;
+    width: 5vw;
+}
+.userP-text{
+    color:white;
+}
+.pro-btn{
+  border: 2px solid darkgoldenrod;
+  height:5vh ;
+  width: 10vw;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+}
+.proBox
+{
+    background-color: aliceblue;
+    height: 38vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.pro-logout{
+    border: 2px solid darkgoldenrod;
+    background-color: #f0f0f0;
+  height:5vh ;
+  width: 10vw;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+
+}
+.home-btn
+{
+    border: 2px solid darkgoldenrod;
+    background-color: black;
+    color: aliceblue;
+  height:5vh ;
+  width: 10vw;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+}
+.bet-sel{
+    border: 2px solid darkgoldenrod;
+    background-color: white;
+    color: black;
+  height:5vh ;
+  width: 10vw;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+
+}
+.betSelectionBox{
+
+    background-color: white;
+    color: black;
+  height:63vh ;
+
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+}
+.featuredGames-btn
+{
+    border: 2px solid darkgoldenrod;
+    background-color: white;
+    color: black;
+  height:6vh ;
+  width: 20vw;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+}
+/* .home-box1,.home-box2{
+    background-color: aqua;
+    width: 10vh;
+    height: 20vh;
+} */
+
+.home-box{
+    border: 2px solid darkgoldenrod;
+    background-color: white;
+    height: 30vh;
+    width: 15vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.coinFlipImg,.traderBox
+{
+    background-color: black;
+    height: 25vh;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.coinflip-btn,.trader-btn{
+    border: 2px solid darkgoldenrod;
+    background-color: white;
+    width: 10vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.traderImg,.coinflip
+{
+    height: 15vh;
+    width: 5vw;
+
+}

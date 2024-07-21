@@ -1,0 +1,115 @@
+.welcome{
+  background-image: url('../images/backgroundImg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 129vh;
+}
+
+ .box{
+    width: 50%;
+   color: darkgoldenrod  ;
+     height: auto;
+    text-align: center;
+    font-family: "Changa", sans-serif;
+    font-optical-sizing: auto;
+     font-style: normal;
+   }
+
+.logoImage
+{
+  width: 35%;
+  height: 30vh;
+    justify-content: center;
+    border-radius:15px ;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+}
+.login-btn,.register-btn{
+    background-color: white;
+    color:darkgoldenrod ;
+    box-shadow: white 3px;
+    width: 35%;
+    height: 9vh;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    font-size: 20px;
+  }
+
+  /* small mobile devices screens */
+  @media (max-width: 576px) {
+    
+    .box{
+      height: 25vh;
+      width: 46vw;
+     color:darkgoldenrod ;
+       height: auto;
+      text-align: center;
+      font-family: "Changa", sans-serif;
+      font-optical-sizing: auto;
+       font-style: normal;
+     }
+  
+  img
+  {
+    
+     width: 50vw;
+   height: 30vh;
+      justify-content: center;
+      border-radius:15px ;
+      -webkit-border-radius:15px ;
+      -moz-border-radius:15px ;
+      -ms-border-radius:15px ;
+      -o-border-radius:15px ;
+  }
+  .login-btn,.register-btn{
+      background-color: white;
+      color:darkgoldenrod ;
+      box-shadow: white 3px;
+      width: 66vw;
+      height: 9vh;
+      border-radius: 13px;
+      -webkit-border-radius: 13px;
+      -moz-border-radius: 13px;
+      -ms-border-radius: 13px;
+      -o-border-radius: 13px;
+      font-size: 18px;
+    }
+  
+  
+  }
+/* Tablet screens */
+@media (min-width: 577px) and (max-width: 768px)
+{
+  .box{
+  
+    width: 90%;
+     height: auto;
+    text-align: center;
+   }
+
+img
+{
+  
+  width: 46vw;
+  height: 30vh;
+    
+}
+.login-btn,.register-btn{
+  
+    width: 49vw;
+    height: 9vh;
+
+  }
+
+}
+/*Extra large*/
+@media (min-width: 993px)
+{
+
+}
